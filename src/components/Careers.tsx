@@ -330,7 +330,7 @@ export default function Careers() {
               exit={{ opacity: 0, scale: 0.95, y: 20 }}
               className="fixed inset-x-4 md:inset-x-auto md:left-1/2 md:-translate-x-1/2 top-[6%] bottom-[6%] md:w-[720px] bg-white dark:bg-slate-900 rounded-2xl shadow-2xl z-50 overflow-hidden border border-slate-200 dark:border-slate-800 flex flex-col"
             >
-              <div className="p-6 bg-slate-50 dark:bg-slate-850 border-b border-slate-200 dark:border-slate-800 flex justify-between items-center shrink-0 text-left">
+              <div className="p-6 bg-slate-50 dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 flex justify-between items-center shrink-0 text-left">
                 <div className="flex items-center gap-3">
                   <div className="p-2 rounded-lg bg-brand-primary/10 text-brand-primary">
                     <Briefcase className="w-5 h-5" />
@@ -386,7 +386,7 @@ export default function Careers() {
                   <span className="text-xs font-mono font-bold text-brand-dark dark:text-brand-primary uppercase tracking-wide block">Qualification</span>
                   <div className="grid grid-cols-1 gap-2">
                     {selectedJob.qualifications.map((q, i) => (
-                      <div key={i} className="flex items-start gap-2 p-2.5 bg-slate-50 dark:bg-slate-800/50 border border-slate-200/50 dark:border-slate-750 rounded-xl text-xs text-slate-700 dark:text-slate-200 font-medium">
+                      <div key={i} className="flex items-start gap-2 p-2.5 bg-slate-50 dark:bg-slate-800/50 border border-slate-200/50 dark:border-slate-800 rounded-xl text-xs text-slate-700 dark:text-slate-200 font-medium">
                         <span className="w-1.5 h-1.5 rounded-full bg-brand-primary shrink-0 mt-1.5" />
                         <span>{q}</span>
                       </div>
@@ -468,7 +468,7 @@ export default function Careers() {
                 </div>
               </div>
 
-              <div className="p-4 bg-slate-50 dark:bg-slate-850 border-t border-slate-200 dark:border-slate-800 text-center text-[10px] text-slate-400 dark:text-slate-500 shrink-0">
+              <div className="p-4 bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 text-center text-[10px] text-slate-400 dark:text-slate-500 shrink-0">
                 Astrabizz Consultancy • Careers
               </div>
             </motion.div>
