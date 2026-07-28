@@ -29,7 +29,13 @@ export default function Footer() {
           
           {/* Column 1: Brand Info */}
           <div data-footer-col className="lg:col-span-4 space-y-5">
-            <Logo dark iconOnly={false} tagline taglineClassName="!text-xs !mt-1 !tracking-[0.25em]" />
+            <Logo
+              dark
+              iconOnly={false}
+              tagline
+              className="items-center"
+              taglineClassName="!text-xs !mt-1 !tracking-[0.25em] !text-center"
+            />
 
             <p className="text-xs text-slate-400 leading-relaxed font-sans max-w-sm">
               <span className="text-slate-200 font-semibold">Transforming Business Through Technology.</span>{' '}
