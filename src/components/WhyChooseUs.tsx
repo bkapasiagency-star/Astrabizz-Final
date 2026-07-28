@@ -199,7 +199,7 @@ export default function WhyChooseUs() {
                                   initial={{ opacity: 0, x: -8 }}
                                   animate={{ opacity: 1, x: 0 }}
                                   transition={{ duration: 0.3, delay: sidx * 0.04 }}
-                                  className="p-1.5 rounded-md bg-slate-50 dark:bg-slate-850 border border-slate-100 dark:border-slate-800 text-slate-700 dark:text-slate-300 font-medium flex items-center gap-2"
+                                  className="p-1.5 rounded-md bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 text-slate-700 dark:text-slate-300 font-medium flex items-center gap-2"
                                 >
                                   <span className="w-1.5 h-1.5 rounded-full bg-brand-gold shrink-0" />
                                   <span className="text-[11px] truncate">{sub}</span>
