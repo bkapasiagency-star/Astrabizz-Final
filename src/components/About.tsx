@@ -54,7 +54,7 @@ export default function About() {
             <p className="text-slate-600 dark:text-slate-300 font-sans text-base leading-relaxed">
               Astrabizz Consultancy is a business and technology consulting firm specializing in ERP, CRM, Artificial Intelligence (AI), Business Intelligence, and Digital Transformation. We help organizations align business strategy, processes, people, and enterprise technology to improve operational efficiency, enable better decision-making, and achieve sustainable growth.
             </p>
-            <p className="text-slate-800 dark:text-slate-200 font-display font-semibold text-lg leading-relaxed border-l-4 border-brand-gold pl-4 bg-brand-light/50 dark:bg-slate-850/50 py-3 rounded-r-xl">
+            <p className="text-slate-800 dark:text-slate-200 font-display font-semibold text-lg leading-relaxed border-l-4 border-brand-gold pl-4 bg-brand-light/50 dark:bg-slate-900/50 py-3 rounded-r-xl">
               "We don't just implement software. We transform businesses."
             </p>
             <p className="text-slate-600 dark:text-slate-300 font-sans text-sm leading-relaxed">
