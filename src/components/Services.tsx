@@ -220,7 +220,7 @@ export default function Services() {
               className="fixed inset-x-4 md:inset-x-auto md:left-1/2 md:-translate-x-1/2 top-[10%] bottom-[10%] md:w-[720px] bg-white dark:bg-slate-900 rounded-2xl shadow-2xl z-50 overflow-hidden border border-slate-200 dark:border-slate-800 flex flex-col"
             >
               {/* Modal Top Header Bar */}
-              <div className="p-6 bg-slate-50 dark:bg-slate-850 border-b border-slate-200 dark:border-slate-800 flex justify-between items-center shrink-0 text-left">
+              <div className="p-6 bg-slate-50 dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 flex justify-between items-center shrink-0 text-left">
                 <div className="flex items-center gap-3">
                   <div className="p-2 rounded-lg bg-brand-primary/10 text-brand-primary">
                     <CheckCircle className="w-5 h-5" />
@@ -259,7 +259,7 @@ export default function Services() {
                     {selectedService.includes.map((incl, i) => (
                       <div
                         key={i}
-                        className="flex items-center gap-2 p-2 bg-slate-50 dark:bg-slate-800/50 border border-slate-200/50 dark:border-slate-750 rounded-xl"
+                        className="flex items-center gap-2 p-2 bg-slate-50 dark:bg-slate-800/50 border border-slate-200/50 dark:border-slate-800 rounded-xl"
                       >
                         <span className="w-2 h-2 rounded-full bg-brand-primary" />
                         <span className="text-xs text-slate-700 dark:text-slate-200 font-semibold">{incl}</span>
@@ -345,7 +345,7 @@ export default function Services() {
               </div>
 
               {/* Modal Static Footer */}
-              <div className="p-4 bg-slate-50 dark:bg-slate-850 border-t border-slate-200 dark:border-slate-800 text-center text-[10px] text-slate-400 dark:text-slate-500 shrink-0">
+              <div className="p-4 bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 text-center text-[10px] text-slate-400 dark:text-slate-500 shrink-0">
                 Astrabizz Consultancy • Guaranteed system adopted rates or ongoing L1 support
               </div>
             </motion.div>
