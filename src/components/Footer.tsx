@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, Globe, MapPin, Linkedin, Twitter, Facebook, ExternalLink, HelpCircle } from 'lucide-react';
+import { Mail, Phone, Globe, MapPin, Linkedin, ExternalLink, HelpCircle } from 'lucide-react';
 import Logo from './Logo';
 import { scrollToTarget } from '../lib/scroll';
 import { navigate } from '../lib/router';
@@ -44,14 +44,8 @@ export default function Footer() {
 
             {/* Social icons */}
             <div className="flex gap-3 pt-2">
-              <a href="#" className="p-2 rounded-lg bg-slate-800 hover:bg-brand-primary hover:text-white transition-colors" aria-label="LinkedIn Profile">
+              <a href="https://www.linkedin.com/in/denishdalal/" target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-slate-800 hover:bg-brand-primary hover:text-white transition-colors" aria-label="LinkedIn Profile">
                 <Linkedin className="w-4 h-4" />
-              </a>
-              <a href="#" className="p-2 rounded-lg bg-slate-800 hover:bg-brand-primary hover:text-white transition-colors" aria-label="Twitter Profile">
-                <Twitter className="w-4 h-4" />
-              </a>
-              <a href="#" className="p-2 rounded-lg bg-slate-800 hover:bg-brand-primary hover:text-white transition-colors" aria-label="Facebook Page">
-                <Facebook className="w-4 h-4" />
               </a>
             </div>
           </div>
