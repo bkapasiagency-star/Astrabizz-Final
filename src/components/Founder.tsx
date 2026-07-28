@@ -163,16 +163,16 @@ export default function Founder() {
               <span className="text-xs font-mono font-bold text-brand-dark uppercase tracking-wider block">
                 Professional Profile
               </span>
-              <p className="text-slate-600 font-sans text-sm sm:text-base leading-relaxed">
+              <p className="text-slate-600 font-sans text-sm leading-relaxed">
                 With over 12 years of experience in ERP, CRM, Artificial Intelligence (AI), Business Intelligence, and Digital Transformation, Denish Dalal has partnered with manufacturing and regulated businesses to solve complex operational challenges through enterprise technology and strategic consulting.
               </p>
-              <p className="text-slate-500 font-sans text-xs leading-relaxed">
+              <p className="text-slate-600 font-sans text-sm leading-relaxed">
                 His expertise spans business process consulting, ERP and CRM strategy, enterprise integrations, AI adoption, and Business Intelligence, helping organizations improve operational efficiency, strengthen decision-making, and achieve sustainable business growth.
               </p>
-              <p className="text-slate-500 font-sans text-xs leading-relaxed">
+              <p className="text-slate-600 font-sans text-sm leading-relaxed">
                 Before founding Astrabizz Consultancy, Denish gained extensive experience delivering enterprise solutions across diverse industries. Working closely with business leaders, he recognized that many digital transformation initiatives fail because technology is often implemented without fully understanding how businesses operate.
               </p>
-              <p className="text-slate-500 font-sans text-xs leading-relaxed">
+              <p className="text-slate-600 font-sans text-sm leading-relaxed">
                 This realization led to the creation of Astrabizz Consultancy—a consulting firm built on the belief that technology should enable business, not dictate it. Today, he partners with organizations to align business strategy, processes, people, and enterprise technology, ensuring every transformation delivers measurable business value and long-term success.
               </p>
             </div>
