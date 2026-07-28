@@ -442,20 +442,20 @@ export default function Navbar() {
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ type: 'tween', duration: 0.3 }}
-              className="fixed right-0 top-0 bottom-0 w-[300px] bg-white z-50 p-6 shadow-2xl flex flex-col justify-between border-l border-slate-100 lg:hidden"
+              className="fixed right-0 top-0 bottom-0 w-[300px] bg-white z-50 shadow-2xl flex flex-col justify-between border-l border-slate-100 lg:hidden overflow-hidden"
             >
               <div className="flex flex-col gap-6">
-                <div className="flex items-center justify-between pb-4 border-b border-slate-100">
+                <div className="flex items-center justify-between px-6 py-5 bg-slate-900 border-b border-slate-800">
                   <Logo />
                   <button
                     onClick={() => setMobileMenuOpen(false)}
-                    className="p-1.5 rounded-lg hover:bg-slate-100 text-slate-600 transition-colors"
+                    className="p-1.5 rounded-lg hover:bg-slate-800 text-slate-300 transition-colors"
                   >
                     <X className="w-5 h-5" />
                   </button>
                 </div>
 
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-4 px-6">
                   <button
                     onClick={() => scrollToSection('about')}
                     className="text-left py-2.5 px-3 rounded-lg hover:bg-slate-50 text-slate-700 font-semibold transition-colors flex items-center gap-2"
@@ -519,7 +519,7 @@ export default function Navbar() {
                 </div>
               </div>
 
-              <div className="flex flex-col gap-3 pt-6 border-t border-slate-100">
+              <div className="flex flex-col gap-3 pt-6 px-6 pb-6 border-t border-slate-100">
                 <a
                   href="tel:+919687412080"
                   className="flex items-center justify-center gap-2 text-xs font-bold uppercase tracking-wide py-2.5 bg-brand-primary/10 text-brand-dark rounded-lg border border-brand-primary/30"
