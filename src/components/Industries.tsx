@@ -206,7 +206,7 @@ export default function Industries() {
                     {selectedIndustry.workflows.map((wf, i) => (
                       <div
                         key={i}
-                        className="flex items-center gap-2 p-2 bg-slate-50 dark:bg-slate-800/50 border border-slate-200/50 dark:border-slate-750 rounded-xl"
+                        className="flex items-center gap-2 p-2 bg-slate-50 dark:bg-slate-800/50 border border-slate-200/50 dark:border-slate-800 rounded-xl"
                       >
                         <span className="w-2 h-2 rounded-full bg-brand-gold" />
                         <span className="text-xs text-slate-700 dark:text-slate-200 font-semibold">{wf}</span>
@@ -298,7 +298,7 @@ export default function Industries() {
               </div>
 
               {/* Modal Static Footer */}
-              <div className="p-4 bg-slate-50 dark:bg-slate-850 border-t border-slate-200 dark:border-slate-800 text-center text-[10px] text-slate-400 dark:text-slate-500 shrink-0">
+              <div className="p-4 bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 text-center text-[10px] text-slate-400 dark:text-slate-500 shrink-0">
                 Astrabizz Consultancy • Deep operational understanding of industrial challenges
               </div>
             </motion.div>
