@@ -442,14 +442,14 @@ export default function Navbar() {
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ type: 'tween', duration: 0.3 }}
-              className="fixed right-0 top-0 bottom-0 w-[300px] bg-white dark:bg-slate-900 z-50 p-6 shadow-2xl flex flex-col justify-between border-l border-slate-100 dark:border-slate-800 lg:hidden"
+              className="fixed right-0 top-0 bottom-0 w-[300px] bg-white z-50 p-6 shadow-2xl flex flex-col justify-between border-l border-slate-100 lg:hidden"
             >
               <div className="flex flex-col gap-6">
-                <div className="flex items-center justify-between pb-4 border-b border-slate-100 dark:border-slate-800">
+                <div className="flex items-center justify-between pb-4 border-b border-slate-100">
                   <Logo />
                   <button
                     onClick={() => setMobileMenuOpen(false)}
-                    className="p-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-600 dark:text-slate-300 transition-colors"
+                    className="p-1.5 rounded-lg hover:bg-slate-100 text-slate-600 transition-colors"
                   >
                     <X className="w-5 h-5" />
                   </button>
@@ -458,21 +458,21 @@ export default function Navbar() {
                 <div className="flex flex-col gap-4">
                   <button
                     onClick={() => scrollToSection('about')}
-                    className="text-left py-2.5 px-3 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 font-semibold transition-colors flex items-center gap-2"
+                    className="text-left py-2.5 px-3 rounded-lg hover:bg-slate-50 text-slate-700 font-semibold transition-colors flex items-center gap-2"
                   >
                     <span>About Us</span>
                   </button>
 
                   <button
                     onClick={() => scrollToSection('founders-desk')}
-                    className="text-left py-2.5 px-3 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 font-semibold transition-colors flex items-center gap-2"
+                    className="text-left py-2.5 px-3 rounded-lg hover:bg-slate-50 text-slate-700 font-semibold transition-colors flex items-center gap-2"
                   >
                     <span>Founder's Desk</span>
                   </button>
 
                   <button
                     onClick={() => scrollToSection('services')}
-                    className="text-left py-2.5 px-3 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 font-semibold transition-colors flex items-center justify-between"
+                    className="text-left py-2.5 px-3 rounded-lg hover:bg-slate-50 text-slate-700 font-semibold transition-colors flex items-center justify-between"
                   >
                     <span>Core Services</span>
                     <span className="text-[10px] bg-brand-primary/15 text-brand-primary px-2 py-0.5 rounded-full font-bold">{SERVICES.length} areas</span>
@@ -480,7 +480,7 @@ export default function Navbar() {
 
                   <button
                     onClick={() => scrollToSection('industries')}
-                    className="text-left py-2.5 px-3 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 font-semibold transition-colors flex items-center justify-between"
+                    className="text-left py-2.5 px-3 rounded-lg hover:bg-slate-50 text-slate-700 font-semibold transition-colors flex items-center justify-between"
                   >
                     <span>Industries Served</span>
                     <span className="text-[10px] bg-brand-gold/15 text-brand-gold px-2 py-0.5 rounded-full font-bold">{INDUSTRIES.length} sectors</span>
@@ -488,29 +488,29 @@ export default function Navbar() {
 
                   <button
                     onClick={() => scrollToSection('why-choose-us')}
-                    className="text-left py-2.5 px-3 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 font-semibold transition-colors"
+                    className="text-left py-2.5 px-3 rounded-lg hover:bg-slate-50 text-slate-700 font-semibold transition-colors"
                   >
                     Why Choose Us
                   </button>
 
                   <button
                     onClick={() => scrollToSection('faq')}
-                    className="text-left py-2.5 px-3 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 font-semibold transition-colors"
+                    className="text-left py-2.5 px-3 rounded-lg hover:bg-slate-50 text-slate-700 font-semibold transition-colors"
                   >
                     FAQ Accordion
                   </button>
 
                   <button
                     onClick={() => scrollToSection('contact')}
-                    className="text-left py-2.5 px-3 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 font-semibold transition-colors"
+                    className="text-left py-2.5 px-3 rounded-lg hover:bg-slate-50 text-slate-700 font-semibold transition-colors"
                   >
                     Contact Information
                   </button>
 
                   <button
                     onClick={goToCareers}
-                    className={`text-left py-2.5 px-3 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-800 font-semibold transition-colors flex items-center justify-between ${
-                      isCareersPage ? 'text-brand-primary bg-brand-light dark:bg-slate-800' : 'text-slate-700 dark:text-slate-200'
+                    className={`text-left py-2.5 px-3 rounded-lg hover:bg-slate-50 font-semibold transition-colors flex items-center justify-between ${
+                      isCareersPage ? 'text-brand-primary bg-brand-light' : 'text-slate-700'
                     }`}
                   >
                     <span>Careers</span>
@@ -519,10 +519,10 @@ export default function Navbar() {
                 </div>
               </div>
 
-              <div className="flex flex-col gap-3 pt-6 border-t border-slate-100 dark:border-slate-800">
+              <div className="flex flex-col gap-3 pt-6 border-t border-slate-100">
                 <a
                   href="tel:+919687412080"
-                  className="flex items-center justify-center gap-2 text-xs font-bold uppercase tracking-wide py-2.5 bg-brand-primary/10 text-brand-dark dark:text-brand-primary rounded-lg border border-brand-primary/30"
+                  className="flex items-center justify-center gap-2 text-xs font-bold uppercase tracking-wide py-2.5 bg-brand-primary/10 text-brand-dark rounded-lg border border-brand-primary/30"
                 >
                   <Phone className="w-3.5 h-3.5" />
                   Call Now
