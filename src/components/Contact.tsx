@@ -114,7 +114,7 @@ export default function Contact() {
                   Denish Dalal
                 </span>
                 <span className="block text-[10px] font-mono text-slate-400 uppercase tracking-widest font-bold">
-                  Founder & Chief Consultant
+                  Founder & Principal Consultant
                 </span>
               </div>
 
